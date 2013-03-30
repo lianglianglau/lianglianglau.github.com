@@ -4,8 +4,6 @@ category: java
 tagline: "Supporting tagline"
 tags: [jdbc,java]
 ---
-{% include JB/setup %}
-
 ###一、DB2
 Class.forName("Com.ibm.db2.jdbc.net.DB2Driver"); 
 String url="jdbc:db2://dburl:port/DBname"
