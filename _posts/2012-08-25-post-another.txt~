@@ -1,0 +1,18 @@
+---
+layout: post
+category : life
+tagline: "Supporting tagline"
+tags : 
+---
+{% include JB/setup %}
+
+
+## my beginning on github pages
+
+### why
+
+write down anything shold me written
+
+### My other Blog
+Tencent Blog click [here](http://user.qzone.qq.com/691285467/infocenter)
+
