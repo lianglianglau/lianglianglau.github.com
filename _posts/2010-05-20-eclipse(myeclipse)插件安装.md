@@ -2,7 +2,7 @@
 layout: post
 category: Eclpse
 tagline: "Supporting tagline"
-tags: [Eclipse ,java]
+tags: [Eclipse, java]
 ---
 {% include JB/setup %}
 
