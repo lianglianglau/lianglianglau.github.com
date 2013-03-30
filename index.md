@@ -1,36 +1,22 @@
 ---
 layout: page
-title: Hello World!
+title: Be a Simple men!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
-## Update Author Attributes
+## Some Words to Myself
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+- 做人，不能过盛，得意时兀凌人，处高时莫自居，喜怒勿形于色，成败内敛于胸；
+不能过怨，能甘于檐下，可远离尘世，得失皆身外，是非置脑后；
+不能过衰，清不避浊，浑能扬清，不弃为人原则，固守尊严底线。
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+- 科技改变生活
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
 
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+## My Post List 我的文章列表
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -38,9 +24,6 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
