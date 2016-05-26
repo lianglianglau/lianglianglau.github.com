@@ -20,7 +20,7 @@
 							<div class="excerpt">{{ post.excerpt }}</div>
 							<div class="readmore" style="float: left;">
 								{% if post.content | post_contains_excerpt_tag %}
-									<a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+									<a href="{{ post.url | prepend: site.baseurl }}">阅读全文>></a>
 								{% endif %}
 							</div>								
 					</div>
@@ -28,13 +28,17 @@
 						<div class="post-list" style="list-style-type: none;">			
 							{% endfor %} 
 						</div>
-					<!-- Pagination links -->
-				<span class='st_sharethis' displayText='ShareThis'></span>
-				<span class='st_facebook' displayText='Facebook'></span>
-				<span class='st_twitter' displayText='Tweet'></span>
-				<span class='st_linkedin' displayText='LinkedIn'></span>
-				<span class='st_pinterest' displayText='Pinterest'></span>
-				<span class='st_email' displayText='Email'></span>
+				<!-- Share This Button BEGIN -->
+				<div class="jiathis_style">
+					<a class="jiathis_button_qzone"></a>
+					<a class="jiathis_button_tsina"></a>
+					<a class="jiathis_button_tqq"></a>
+					<a class="jiathis_button_weixin"></a>
+					<a class="jiathis_button_renren"></a>
+					<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+					<a class="jiathis_counter_style"></a>
+				</div>
+                <!-- JiaThis Button END -->
 					<!-- Pagination links -->
 					<div class="pagination">
 					  <ul>
@@ -92,9 +96,18 @@
 					<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
 				</div>
             </div>-->
+			    <!-- about me Well -->
+				<div class="well">
+                    <h4>关于我</h4>
+                        <div class="input-group">
+                           <p>做人，不能过盛，得意时兀凌人，处高时莫自居，喜怒勿形于色，成败内敛于胸；
+                             不能过怨，能甘于檐下，可远离尘世，得失皆身外，是非置脑后；
+                             不能过衰，清不避浊，浑能扬清，不弃为人原则，固守尊严底线。</p>
+                        </div>
+                </div>
                 <!-- Blog Categories -->
                 <div class="well">
-                    <h4>分类</h4>
+                    <h4>栏目分类</h4>
                     <div class="row">
                         <div class="col-lg-6">
 								{% for cat in site.categories %}

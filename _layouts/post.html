@@ -14,14 +14,21 @@
 					<p class="post-meta">{% if page.author %} <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">by {{ page.author }}</span></span>{% endif %} <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><i class="fa fa-calendar"></i> {{ page.date | date: "%b %-d, %Y" }}</time></p>
 					</div>
 					 {{ content }}
-					 <span class='st_sharethis_large' displayText='ShareThis'></span>
-						<span class='st_facebook_large' displayText='Facebook'></span>
-						<span class='st_twitter_large' displayText='Tweet'></span>
-						<span class='st_linkedin_large' displayText='LinkedIn'></span>
-						<span class='st_pinterest_large' displayText='Pinterest'></span>
-						<span class='st_email_large' displayText='Email'></span>
-                </div>
-                Category {{ page.categories | join: ', ' }}
+				<!-- Share This Button BEGIN -->
+				<div class="jiathis_style_24x24">
+					<a class="jiathis_button_qzone"></a>
+					<a class="jiathis_button_tsina"></a>
+					<a class="jiathis_button_tqq"></a>
+					<a class="jiathis_button_weixin"></a>
+					<a class="jiathis_button_renren"></a>
+					<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+					<a class="jiathis_counter_style"></a>
+				</div>
+                <!-- JiaThis Button END -->
+                </div >
+				<div style="float: left">
+                栏目分类-> {{ page.categories | join: ', ' }}
+				</div>
         </div>
 	</div>
   
