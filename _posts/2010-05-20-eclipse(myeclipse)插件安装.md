@@ -1,10 +1,12 @@
 ---
 layout: post
-category: Eclpse
+category: java
 tagline: "Supporting tagline"
-tags: [Eclipse, java]
+tags: Eclipse java
+# author
+author: Aaron Lau
 ---
-{% include JB/setup %}
+
 
 将Eclipse选作开发工具，对不同的应用要求需要导入不同的插件。对于插件的安装，很容易出现莫名奇妙的问题，有些问题的解决方法甚至Google不到。而就算找到的解决方案也许当时解决了，但或许有些运气的成分。因此，先将常用的插件安装方法总结如下(假设Eclipse安装目录：`C：\eclipse`)：
 

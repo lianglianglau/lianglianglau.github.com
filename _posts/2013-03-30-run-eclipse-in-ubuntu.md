@@ -1,10 +1,12 @@
 ---
 layout: post
-category: Eclipse
+category: java
 tagline: "Supporting tagline"
-tags: [Eclipse]
+tags: Eclipse
+# author
+author: Aaron Lau
 ---
-{% include JB/setup %}
+
 
 create an eclipse executable
 
